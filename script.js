@@ -1,3 +1,5 @@
+
+// data from coindesk
 const api = 'https://api.coindesk.com/v1/bpi/historical/close.json?start=2013-09-01&end=2021-01-01';
 
 
@@ -33,6 +35,7 @@ function parseData(data) {
  * @param {object} data 
  */
 
+// chart function
 
 function drawChart(data) {
     var svgWidth = 1600, svgHeight = 600;
